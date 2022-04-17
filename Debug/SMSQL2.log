@@ -1,0 +1,77 @@
+﻿  global.cpp
+D:\Cfile\SMSQL2\SMSQL2\global.cpp(5,10): fatal error C1083: 无法打开包括文件: “parser/parser_token.h”: No such file or directory
+  Page_Mgr.cpp
+D:\Cfile\SMSQL2\SMSQL2\storage\Page_Mgr.cpp(7,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Page_Mgr.cpp(26,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Page_Mgr.cpp(54,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PF_BufferMgr.cpp
+D:\Cfile\SMSQL2\SMSQL2\storage\PF_BufferMgr.cpp(27,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\PF_BufferMgr.cpp(46,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PF_BufPageDesc.cpp
+  Subsystem1_Manager.cpp
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(37,26): error C2039: "Scan_attribute": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(114,39): error C2039: "lookup_Attrs": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(151,27): error C2065: “DBName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(151,56): error C2065: “UserName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(221,26): error C2039: "Create_Rel": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(225,26): error C2065: “DBName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(225,42): error C2065: “DBName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(225,61): error C2660: “memcpy”: 函数不接受 1 个参数
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vcruntime_string.h(43,15): message : 参见“memcpy”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(226,27): error C2065: “UserName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(226,45): error C2065: “UserName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(226,66): error C2660: “memcpy”: 函数不接受 1 个参数
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vcruntime_string.h(43,15): message : 参见“memcpy”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(228,2): error C3861: “Add_rel”: 找不到标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(229,2): error C3861: “Add_attribute”: 找不到标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(509,26): error C2039: "Delete_Rel": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(511,29): error C2065: “UserName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(511,47): error C2065: “DBName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(513,2): error C3861: “Delete_Attr”: 找不到标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(533,28): error C2065: “UserName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(533,90): error C2065: “DBName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(560,26): error C2039: "lookup_Rel": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(577,28): error C2065: “UserName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(577,90): error C2065: “DBName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(600,26): error C2039: "lookup_Attr": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(637,27): error C2065: “DBName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(637,56): error C2065: “UserName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(697,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(703,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(730,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(814,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(876,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(964,6): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(965,6): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(994,40): error C2039: "lookup_Indexes": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1016,6): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1017,6): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1092,26): error C2039: "Delete_Attr": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1130,27): error C2065: “DBName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1130,56): error C2065: “UserName”: 未声明的标识符
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1534,70): error C2084: 函数“void Subsystem1_Manager::set_change_records(Attr_Info,int)”已有主体
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1374): message : 参见“set_change_records”的前一个定义
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1616,86): error C2084: 函数“void Subsystem1_Manager::set_distribution(Attr_Info,Distribution)”已有主体
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.cpp(1458): message : 参见“set_distribution”的前一个定义
+  Test.cpp
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\Cfile\SMSQL2\SMSQL2\storage\Test.cpp(27,26): error C2039: "Create_Rel": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Test.cpp(125,26): error C2039: "Scan_attribute": 不是 "Subsystem1_Manager" 的成员
+D:\Cfile\SMSQL2\SMSQL2\storage\Subsystem1_Manager.h(5): message : 参见“Subsystem1_Manager”的声明
+D:\Cfile\SMSQL2\SMSQL2\storage\Test.cpp(10,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Test.cpp(11,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Test.cpp(16,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Test.cpp(17,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Test.cpp(22,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Cfile\SMSQL2\SMSQL2\storage\Test.cpp(23,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
